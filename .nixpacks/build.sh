@@ -1,0 +1,1 @@
+docker build . -f ./.nixpacks/Dockerfile -t 7d2f30a8-22b9-4fae-9f21-a3e41c116735 --build-arg NIXPACKS_METADATA=rust --build-arg ROCKET_ADDRESS=0.0.0.0
