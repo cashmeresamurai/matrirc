@@ -26,5 +26,5 @@ RUN --mount=type=cache,id=ucA4cW8tRjs-/root/cargo/git,target=/root/.cargo/git --
 # start
 COPY . /app
 
-CMD ["./bin/matrirc"]
+CMD ["./bin/matrirc --allow-register"]
 
